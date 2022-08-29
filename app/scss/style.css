@@ -159,7 +159,7 @@ button,
   button,
 .button {
     font-size: 14px;
-    padding: 10px;
+    padding: 8px;
   }
 }
 
@@ -222,7 +222,7 @@ button,
 @media (max-width: 71.8125em) {
   .apple {
     width: 150.55px;
-    height: 50px;
+    height: 46px;
   }
 }
 
@@ -406,7 +406,7 @@ main {
 .hero__text .wesave {
   background-image: url(Images/WeSave.svg);
   background-repeat: no-repeat;
-  padding: 5px;
+  padding: 3px;
   color: hsl(0deg, 0%, 100%);
   background-size: cover;
 }
