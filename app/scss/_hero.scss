@@ -1,5 +1,5 @@
 .hero {
-    margin-bottom: 35px;
+    margin-bottom: 3.0803125rem;
 
     @include breakpoint-up(large) {
         display: flex;
@@ -16,8 +16,8 @@
             width: 97%;
 
             @include breakpoint-up(large) {
-                height: 657px;
-                width: 587px;
+                height: 637px;
+                width: 567px;
             }
         }
     }
@@ -57,7 +57,7 @@
             margin-bottom: 1.5rem;
 
             @include breakpoint-up(large) {
-                font-size: 18px;
+                font-size: 1rem;
             }
         }
     }

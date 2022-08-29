@@ -271,7 +271,7 @@ button,
 }
 
 main {
-  margin: 50px 100px;
+  margin: 50px 100px 0;
 }
 
 @media (max-width: 71.8125em) {
@@ -367,7 +367,7 @@ main {
 }
 
 .hero {
-  margin-bottom: 35px;
+  margin-bottom: 3.0803125rem;
 }
 @media (min-width: 71.875em) {
   .hero {
@@ -384,8 +384,8 @@ main {
 }
 @media (min-width: 71.875em) {
   .hero__image .img {
-    height: 657px;
-    width: 587px;
+    height: 637px;
+    width: 567px;
   }
 }
 .hero__text {
@@ -421,6 +421,6 @@ main {
 }
 @media (min-width: 71.875em) {
   .hero__text p {
-    font-size: 18px;
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
