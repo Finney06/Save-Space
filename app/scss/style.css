@@ -159,7 +159,7 @@ button,
   button,
 .button {
     font-size: 14px;
-    padding: 14px;
+    padding: 12px;
   }
 }
 
@@ -357,6 +357,9 @@ main {
   opacity: 1;
 }
 
+.hero {
+  margin-bottom: 35px;
+}
 @media (min-width: 71.875em) {
   .hero {
     display: flex;

@@ -1,9 +1,10 @@
 .hero {
+    margin-bottom: 35px;
+
     @include breakpoint-up(large) {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-
     }
 
 
