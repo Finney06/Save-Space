@@ -171,16 +171,21 @@ button,
 //     background-color: none;
 // }
 
+.apple {
+    width: 150.55px;
+    height: 50px;
+}
+
 .apple::before {
     content: url(Images/apple-icon.svg);
     vertical-align: middle;
-    margin-right: 11.8px;
+    margin-right: 7.8px;
 }
 
 .android::before {
     content: url(Images/playstore-icon.svg);
     vertical-align: middle;
-    margin-right: 11.8px;
+    margin-right: 7.8px;
 }
 
 // Visibility
