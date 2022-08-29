@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
+
+:root {
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-size: 18px;
+}
+
+/* NAV SECTION  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    align-items: center;
+    background-color: var(--very-light-blue);
+    padding: 0 10rem;
+    position: sticky;
+    top: 0;
+}
+
+
+.logo {
+    width: 86px;
+    height: 102px;
+
+}
+
+ul {
+    display: flex;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 4rem;
+}
+
+li {
+    list-style: none;
+    transition: all ease-in-out 200ms;
+}
+
+li:hover {
+    color: var(--Blue);
+}
+
+.button {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.log-in-button {
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: 1.5px solid #dadce0;
+    font-family: 'Manrope', sans-serif;
+    color: var(--Blue);
+    font-weight: 700;
+    font-size: 18px;
+    background-color: var(--very-light-blue);
+    transition: all ease-in-out 200ms;
+}
+
+.log-in-button:hover {
+    background-color: #f6f9fe;;
+    cursor: pointer;
+    border-color: #1a73e8;
+    color: #174ea6;
+
+}
+
+.create-button {
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: 2px solid var(--Blue);
+    background-color: var(--Blue);
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all ease-in-out 200ms;
+}
+
+.create-button:hover {
+    cursor: pointer;
+    background-color: #185abc;
+}
+
+.content {
+    margin: 7rem 10rem;
+} */
+
+/* HERO SECTION */
+/* .hero-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-container h1 {
+    font-size: 42px;
+    margin-bottom:20px;
+}
+
+.main-container p {
+    
+}
+
+*/

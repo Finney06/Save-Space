@@ -1,0 +1,65 @@
+.hero {
+    @include breakpoint-up(large) {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+    }
+
+
+
+    &__image {
+        width: 100%;
+
+        .img {
+            width: 97%;
+
+            @include breakpoint-up(large) {
+                height: 657px;
+                width: 587px;
+            }
+        }
+    }
+
+
+
+    &__text {
+        text-align: center;
+
+        @include breakpoint-up(large) {
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            line-height: 1.4;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+
+            @include breakpoint-up(large) {
+                font-size: 2.25rem;
+                
+            }
+        }
+
+        .wesave {
+            background-image: url(Images/WeSave.svg);
+            background-repeat: no-repeat;
+            padding: 5px;
+            color: $white;
+            background-size: cover;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 1.5rem;
+
+            @include breakpoint-up(large) {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+
