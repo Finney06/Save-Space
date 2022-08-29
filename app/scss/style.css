@@ -219,9 +219,11 @@ button,
   color: #174ea6;
 }
 
-.apple {
-  width: 150.55px;
-  height: 50px;
+@media (max-width: 71.8125em) {
+  .apple {
+    width: 150.55px;
+    height: 50px;
+  }
 }
 
 .apple::before {

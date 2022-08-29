@@ -172,8 +172,11 @@ button,
 // }
 
 .apple {
-    width: 150.55px;
-    height: 50px;
+    @include breakpoint-down(medium) {
+        width: 150.55px;
+        height: 50px;
+    }
+
 }
 
 .apple::before {
