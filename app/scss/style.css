@@ -232,10 +232,9 @@ button,
   margin-right: 7.8px;
 }
 
-.android::before {
-  content: url(Images/playstore-icon.svg);
-  vertical-align: middle;
-  margin-right: 3.8px;
+.play {
+  width: 18px;
+  height: 20px;
 }
 
 @media (max-width: 71.8125em) {
