@@ -104,7 +104,7 @@ button,
 .button {
     @include breakpoint-down(medium) {
         font-size: 14px;
-        padding: 8px;
+        padding: 14px;
     }
 }
 
@@ -144,7 +144,7 @@ button,
 
 .m-b {
     @include breakpoint-down(medium) {
-        margin-bottom: 32px;
+        margin-bottom: 25px;
     }
 }
 
@@ -156,10 +156,15 @@ button,
 .download {
     @include breakpoint-down(medium) {
         justify-content: center;
+        width: 100%;
     } 
 }
 
 .down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
     background-color: white;
     cursor: pointer;
     border: 1px solid #1a73e8;
@@ -171,29 +176,11 @@ button,
 //     background-color: none;
 // }
 
-.apple {
-    @include breakpoint-down(medium) {
-        width: 150.55px;
-        height: 46px;
-    }
-
-}
-
-.apple::before {
-    content: url(Images/apple-icon.svg);
-    vertical-align: middle;
-    margin-right: 7.8px;
-}
-
-// .android::before {
-//     content: url(Images/playstore-icon.svg);
-//     vertical-align: middle;
-//     margin-right: 3.8px;
-// }
 
 .play {
     width: 18px;
     height: 20px;
+    margin-right: 3px;
 }
 
 // Visibility

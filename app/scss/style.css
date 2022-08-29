@@ -159,7 +159,7 @@ button,
   button,
 .button {
     font-size: 14px;
-    padding: 8px;
+    padding: 14px;
   }
 }
 
@@ -197,7 +197,7 @@ button,
 
 @media (max-width: 71.8125em) {
   .m-b {
-    margin-bottom: 32px;
+    margin-bottom: 25px;
   }
 }
 
@@ -209,32 +209,25 @@ button,
 @media (max-width: 71.8125em) {
   .download {
     justify-content: center;
+    width: 100%;
   }
 }
 
 .down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
   background-color: white;
   cursor: pointer;
   border: 1px solid #1a73e8;
   color: #174ea6;
 }
 
-@media (max-width: 71.8125em) {
-  .apple {
-    width: 150.55px;
-    height: 46px;
-  }
-}
-
-.apple::before {
-  content: url(Images/apple-icon.svg);
-  vertical-align: middle;
-  margin-right: 7.8px;
-}
-
 .play {
   width: 18px;
   height: 20px;
+  margin-right: 3px;
 }
 
 @media (max-width: 71.8125em) {
