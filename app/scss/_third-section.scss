@@ -12,12 +12,15 @@
     }
 
     &__text {
-        width: 90%;
+        width: 100%;
+        grid-row: 3/4;
     }
 
     &__image {
         width: 100%;
         place-self: flex-end;
+        grid-row: 1/2;
+
 
         img {
             @include breakpoint-down(medium) {
