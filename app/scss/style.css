@@ -222,6 +222,7 @@ button,
   cursor: pointer;
   border: 1px solid #1a73e8;
   color: #174ea6;
+  transition: background-color ease-in-out 75ms;
 }
 @media (min-width: 71.875em) {
   .down {
