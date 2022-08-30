@@ -494,9 +494,23 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
+@media (max-width: 71.8125em) {
+  .third {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    text-align: center;
+  }
+}
 .third__text {
   width: 90%;
 }
 .third__image {
+  width: 100%;
   place-self: flex-end;
+}
+@media (max-width: 71.8125em) {
+  .third__image img {
+    width: 97%;
+  }
 }/*# sourceMappingURL=style.css.map */
