@@ -1,27 +1,24 @@
 .third {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr; 
-
-
-    @include breakpoint-down(medium) {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        place-items: center;
-        text-align: center;
-    }
 
     &__text {
         width: 90%;
+        ul {
+            padding-left: 25px;
+        }
     }
 
     &__image {
-        width: 100%;
         place-self: flex-end;
+
+        @include breakpoint-down(medium) {
+            grid-row: 1/2;
+            place-self: center;
+        }
 
         img {
             @include breakpoint-down(medium) {
-                width: 97%;
+                width: 100%;
+                margin: 0 auto;
             }
         }
         

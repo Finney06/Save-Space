@@ -1,18 +1,6 @@
-.second {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin-bottom: 6.160625rem;
+// .second {
 
-
-
-    @include breakpoint-down(medium) {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        place-items: center;
-        text-align: center;
-    }
-}
+// }
 
 .sec-img {
     margin-right: 40px;

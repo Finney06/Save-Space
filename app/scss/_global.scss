@@ -71,6 +71,34 @@ nav {
     background-color: $very-light-blue;
 }
 
+
+main {
+    margin: 50px 100px 0;
+}
+
+main {
+    @include breakpoint-down(medium) {
+        margin: 50px 20px 0;
+    }
+}
+
+section {
+    margin-bottom: 6.160625rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+    @include breakpoint-down(medium) {
+        grid-template-columns: 1fr;
+        place-items: center;
+        text-align: center;
+    }
+}
+
+// REFACTORING THIS SECTION 
 .p {
     margin: 0;
     font-family: Marcellus SC;
@@ -228,22 +256,10 @@ button,
     }
 }
 
-main {
-    margin: 50px 100px 0;
-}
 
-main {
-    @include breakpoint-down(medium) {
-        margin: 50px 20px 0;
-    }
-}
-
-// section {
-//     margin-bottom: 6.160625rem;
-// }
 
 .heading {
-    font-size: 1.8rem;
+    font-size: 1.78rem;
     line-height: 1.4;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -264,3 +280,5 @@ main {
         font-size: 1rem;
     }
 }
+
+
