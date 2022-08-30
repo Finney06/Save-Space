@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Marcellus+SC&display=swap');
 
 html {
-    font-size: 100%;
+    font-size: 90%;
     box-sizing: border-box;
 }
 
@@ -24,8 +24,7 @@ body {
 
 h1,
 h2,
-h3,
-p {
+h3 {
     margin-top: 0px;
 }
 
@@ -236,5 +235,28 @@ main {
 main {
     @include breakpoint-down(medium) {
         margin: 50px 20px 0;
+    }
+}
+
+.heading {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    @include breakpoint-up(large) {
+        font-size: 2.25rem;
+        
+    }
+}
+
+
+.paragraph {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+
+    @include breakpoint-up(large) {
+        font-size: 1rem;
     }
 }

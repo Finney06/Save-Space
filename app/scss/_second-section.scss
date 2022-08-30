@@ -1,0 +1,41 @@
+.second {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 6.160625rem;
+
+
+
+    @include breakpoint-down(medium) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        place-items: center;
+        text-align: center;
+        height: 626px;
+    }
+}
+
+.sec-img {
+    margin-right: 40px;
+
+    @include breakpoint-down(medium) {
+        margin-right: 20px;
+    }
+
+}
+
+.try {
+    width: 200px;
+}
+
+.content1 {
+    text-align: left;
+}
+
+.cut-out::before {
+    content: "Participate in thrifts (ajo, esusu and adashe) with your family and friends. Create a thrift plan and invite your friends to join you.";
+
+    @include breakpoint-down(medium) {
+        content: "Create a thrift plan and invite your friends and family to join you.";
+    }
+}
