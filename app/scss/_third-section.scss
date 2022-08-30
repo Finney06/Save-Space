@@ -1,0 +1,14 @@
+.third {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr; 
+
+    &__text {
+        width: 90%;
+    }
+
+    &__image {
+        place-self: flex-end;
+    }
+}
+

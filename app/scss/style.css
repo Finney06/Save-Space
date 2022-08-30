@@ -487,4 +487,16 @@ main {
   .cut-out::before {
     content: "Create a thrift plan and invite your friends and family to join you.";
   }
+}
+
+.third {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.third__text {
+  width: 90%;
+}
+.third__image {
+  place-self: flex-end;
 }/*# sourceMappingURL=style.css.map */
