@@ -481,6 +481,7 @@ button,
 }
 .third__text ul {
   padding-left: 25px;
+  text-align: left;
 }
 .third__image {
   place-self: flex-end;
