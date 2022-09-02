@@ -2,6 +2,11 @@
 
     &__text {
         width: 90%;
+        margin-top: 50px;
+
+        @include breakpoint-down(medium) {
+            margin-top: 0;
+        }
         ul {
             padding-left: 25px;
             text-align: left;
@@ -25,4 +30,3 @@
         
     }
 }
-

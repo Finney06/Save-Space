@@ -1,0 +1,21 @@
+.fourth {
+    &__image {
+
+        img {
+            margin-right: 80px;
+        }
+            
+        @include breakpoint-down(medium) {
+            grid-row: 1/2;
+            place-self: center;
+        }
+    
+        img {
+            @include breakpoint-down(medium) {
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+

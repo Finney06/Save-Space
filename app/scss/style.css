@@ -478,6 +478,12 @@ button,
 
 .third__text {
   width: 90%;
+  margin-top: 50px;
+}
+@media (max-width: 71.8125em) {
+  .third__text {
+    margin-top: 0;
+  }
 }
 .third__text ul {
   padding-left: 25px;
@@ -496,5 +502,82 @@ button,
   .third__image img {
     width: 100%;
     margin: 0 auto;
+  }
+}
+
+.fourth__image img {
+  margin-right: 80px;
+}
+@media (max-width: 71.8125em) {
+  .fourth__image {
+    grid-row: 1/2;
+    place-self: center;
+  }
+}
+@media (max-width: 71.8125em) {
+  .fourth__image img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.fifth__image {
+  place-self: flex-end;
+}
+@media (max-width: 71.8125em) {
+  .fifth__image {
+    grid-row: 1/2;
+    place-self: center;
+  }
+}
+.fifth__image img {
+  width: 468px;
+}
+@media (max-width: 71.8125em) {
+  .fifth__image img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.fifth__text {
+  margin-right: 40px;
+}
+@media (max-width: 71.8125em) {
+  .fifth__text {
+    margin-right: 0;
+  }
+}
+.fifth__remark img {
+  width: 100px;
+  height: 100px;
+  margin-right: 32px;
+}
+@media (max-width: 71.8125em) {
+  .fifth__remark img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+}
+.fifth__remark .comment {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+@media (max-width: 71.8125em) {
+  .fifth__remark .comment {
+    font-size: 12px;
+    margin: 0;
+    text-align: left;
+  }
+}
+.fifth__remark .Ade {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+@media (max-width: 71.8125em) {
+  .fifth__remark .Ade {
+    text-align: left;
+    font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */

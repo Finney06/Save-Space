@@ -1,0 +1,61 @@
+.fifth {
+    &__image {
+        place-self: flex-end;
+
+        @include breakpoint-down(medium) {
+            grid-row: 1/2;
+            place-self: center;
+        }
+
+        img {
+            width: 468px;
+
+            @include breakpoint-down(medium) {
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &__text {
+        margin-right: 40px;
+        @include breakpoint-down(medium){
+            margin-right: 0;
+        }
+    }
+
+    &__remark {
+        img {
+            width: 100px;
+            height: 100px;
+            margin-right: 32px;
+
+            @include breakpoint-down(medium) {
+                width: 60px;
+                height: 60px;
+                margin-right: 20px;
+            }
+
+        }
+
+        .comment {
+            margin-top: 0;
+            margin-bottom: 8px;
+            @include breakpoint-down(medium) {
+                font-size: 12px;
+                margin: 0;
+                text-align: left;
+            }
+        }
+
+        .Ade {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 600;
+            @include breakpoint-down(medium) {
+                text-align: left;
+                font-size: 14px;
+            }
+        }
+    }
+}
