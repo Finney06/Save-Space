@@ -642,6 +642,7 @@ button,
 }
 .mob p {
   color: white;
+  margin-top: 5px;
 }
 .mob .note {
   margin-bottom: 40px;
