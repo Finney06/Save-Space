@@ -636,7 +636,7 @@ button,
 }
 
 .mob {
-  padding: 50px 20px 20px;
+  padding: 50px 20px 50px;
   background-color: #012FA9;
   color: white;
 }
@@ -666,5 +666,5 @@ button,
 }
 .mob .align {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
