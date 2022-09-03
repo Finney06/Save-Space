@@ -74,9 +74,6 @@ nav {
 
 main {
     margin: 50px 100px 0;
-}
-
-main {
     @include breakpoint-down(medium) {
         margin: 50px 20px 0;
     }
